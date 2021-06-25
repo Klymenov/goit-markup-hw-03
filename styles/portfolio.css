@@ -88,17 +88,21 @@ body {
 /*main-section*/
 
 .main-section {
-
+    background-color: #ffffff;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .main-nav {
     width: 100%;
     align-items: center;
 }
 .main-nav-list {
-    margin: 94px 294px 50px 286px;
-    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto 50px;
+    display: flex;
     list-style: none;
     padding: 0;
+    margin-left: -8px;
 }
 .main-nav-element {
     margin-left: 8px;
@@ -169,15 +173,15 @@ button {
 
 .footer-section {
     background-color: #2F303A;
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-content {
 
 }
 .footer-nav {
-    display: inline-block;
-    margin-top: 60px;
-    margin-bottom: 51px;
-    
+    display: inline-block;    
 }
 .footer-logo {
     display: block;

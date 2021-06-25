@@ -95,17 +95,17 @@ body {
 
 .hero-section {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-content {
     width: 100%;
     margin: 0 auto;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .hero-button {
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    box-sizing: border-box;
     width: 200px;
     height: 50px;
     color: white;
@@ -115,10 +115,10 @@ body {
     align-items: center;
     letter-spacing: 0.06em;
     padding: 0px;
-    margin: 0 500px 200px;
+    margin: 0 500px;
 }
 .hero-heading {
-    display: inline-block;
+    /* display: inline-block; */
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -126,7 +126,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 200px 252px 30px;
+    margin: 0px 252px 30px;
 }
 
 /*work section*/
@@ -134,12 +134,19 @@ body {
 .work-section {
     margin: 0 auto;
     background-color: white;
+    padding-bottom: 94px;
 }
-.accents {
+.accents-section {
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+/* .accents {
     display: inline-block;
     width: 100%;
     margin-top: 94px;
-}
+} */
 .accents-list {
     display: flex;
     padding: 0;
@@ -185,7 +192,7 @@ body {
     margin-left: -30px;
 }
 .work-heading {
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0px auto 50px;
     font-weight: 700;
     font-size: 36px;
@@ -203,26 +210,27 @@ body {
 
 .team-section {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-.our-team {
+/*.our-team {
     width: 100%;
-    margin: 0 auto;
-}
+    margin: 0 auto; 
+} */
 .team-heading {
-    display: inline-block;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 94px 467px 50px;
+    margin: 0px auto 50px;
     align-items: center;
     color: #212121;
 }
 .team-list {
-    display: inline-flex;
+    display: flex;
     width: 100%;
-    margin: 0 auto 94px;
+    margin: 0 auto;
     margin-left: -30px;
     padding: 0px;
     list-style: none;
@@ -258,14 +266,14 @@ body {
 
 .footer-section {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-content {
 
 }
 .footer-nav {
     display: inline-block;
-    margin-top: 60px;
-    margin-bottom: 51px;
     
 }
 .footer-logo {
